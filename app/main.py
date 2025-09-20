@@ -1,8 +1,8 @@
 # app/main.py
 
 # Utiliza importações relativas para funcionar dentro do pacote 'app'
-from .cafe import Cafe
-from .errors import VaccineError, NotWearingMaskError
+from app.cafe import Cafe
+from app.errors import VaccineError, NotWearingMaskError
 
 
 def go_to_cafe(friends: list[dict], cafe: Cafe) -> str:
